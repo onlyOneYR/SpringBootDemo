@@ -28,10 +28,10 @@ public class UserController {
         return users;
     }
 
-    @RequestMapping("/user/query/{name}")
+/*    @RequestMapping("/user/query/{name}")
     public void say(@PathVariable String name) {
-
+//TODO
         List<User> users = userService.query(name);
 
-    }
+    }*/
 }
